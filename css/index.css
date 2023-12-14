@@ -380,7 +380,7 @@ footer .credit a {
 
 .modal .modal-box {
     width: 80%;
-    height: 30rem;
+    min-height: 30rem;
     background-color: #eee;
     border-radius: 3rem;
     position: relative;
