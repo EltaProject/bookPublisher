@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBookPublisher | Home</title>
+
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/index.css"">
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- NAVBAR START -->
+        <nav class="navbar">
+            <a href="#" class="navbar-logo">E-Book <span>Publisher.</span></a>
+            <div class="navbar-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#bookList">Popular Book</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="navbar-extra">
+                <a href="#" id="search"><i data-feather="search"></i></a>
+                <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+                <a href="#" id="humberger-menu"><i data-feather="menu"></i></a>
+            </div>
+        </nav>
+        <!-- NAVBAR END -->
+
+
+        <!-- HERO SECTION START -->
+        <section class="hero" id="home">
+            <main class="content">
+                <h1>Terbitkan Buku <span>Berkualitas</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, soluta.</p>
+                <a href="#" class="cta">Kolaborasi Sekarang</a>
+            </main>
+        </section>
+        <!-- HERO SECTION END -->
+
+        <!-- ABOUT SECTION START -->
+        <section class="about" id="about">
+            <h2><span>Tentang</span> Kami</h2>
+            <div class="row">
+                <div class="about-img">
+                    <img src="image/about.jpg" alt="Tentang Kami">
+                </div>
+                <div class="content">
+                    <h3>Kenapa Publish Disini</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed est, asperiores placeat
+                        labore voluptatem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti natus soluta maiores enim
+                        repellat. Eaque porro maiores laudantium explicabo?</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT SECTION END -->
+
+
+        <!-- MENU SECTION START -->
+        <section class="menu" id="bookList">
+            <h2><span>Buku</span> Terpopuler</h2>
+            <p>Bingung Mau Beli Buku Apa?</p>
+            <p>Berikut adalah Daftar Buku Terpopuler yang Kami Jual</p>
+            <div class="row">
+                <div class="menu-card">
+                    <img src="image/product/1.jpg" alt="">
+                    <h3 class="menu-card-title"> READ THIS IF TOU WANT TAKE GREAT PHOTOGRAPHS </h3>
+                    <p class="menu-card-price"> > Rp 250000 < </p>
+                            <button type="button" id="detailModalToggle">Lihat Detail</button>
+                </div>
+                <div class="menu-card">
+                    <img src="image/product/2.jpg" alt="">
+                    <h3 class="menu-card-title"> HOW INNOVATION WORKS </h3>
+                    <p class="menu-card-price"> > Rp 250000 < </p>
+                            <button type="button">Lihat Detail</button>
+                </div>
+                <div class="menu-card">
+                    <img src="image/product/3.jpg" alt="">
+                    <h3 class="menu-card-title"> THE PSYCHOLOGY OF MONEY </h3>
+                    <p class="menu-card-price"> > Rp 250000 < </p>
+                            <button type="button">Lihat Detail</button>
+                </div>
+                <div class="menu-card">
+                    <img src="image/product/4.jpg" alt="">
+                    <h3 class="menu-card-title"> A STORYTELLING WORKBOOK </h3>
+                    <p class="menu-card-price"> > Rp 250000 < </p>
+                            <button type="button">Lihat Detail</button>
+                </div>
+                <div class="menu-card">
+                    <img src="image/product/5.jpg" alt="">
+                    <h3 class="menu-card-title"> ALL THE LETTERS I SHOULD HAVE SENT </h3>
+                    <p class="menu-card-price"> > Rp 250000 < </p>
+                            <button type="button">Lihat Detail</button>
+                </div>
+                <div class="menu-card">
+                    <img src="image/product/6.jpg" alt="">
+                    <h3 class="menu-card-title"> PICTURE OF DORIAN GRAY </h3>
+                    <p class="menu-card-price"> > Rp 250000 < </p>
+                            <button type="button">Lihat Detail</button>
+                </div>
+            </div>
+            <!-- DETAIL MODAL START -->
+            <div class="modal" id="detailModal">
+                <div class="modal-box">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Detail Buku</h2>
+                        <a id="close-btn"><i data-feather="x"></i></a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img src="image/product/1.jpg" alt="">
+                        </div>
+                        <div class="modal-content">
+                            <h3 class="title-book">READ THIS IF TOU WANT TAKE GREAT PHOTOGRAPHS</h3>
+                            <p class="description-book">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Cupiditate
+                                eos commodi earum animi et doloremque soluta atque labore temporibus itaque!</p>
+                            <p class="description-book">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Accusamus quo sed itaque labore, ea
+                                velit.</p>
+                            <p class="author">by : <b>Author Name</b></p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="cart-button">Tambahkan ke Kearanjang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- DETAIL MODAL END -->
+        </section>
+        <!-- MENU SECTION END -->
+
+
+        <!-- CONTACT SECTION START -->
+        <section class="contact" id="contact">
+            <h2><span>Hubungi</span> Kami</h2>
+            <p>Silahkan Hubungi Kami Melalui Form Dibawah</p>
+
+            <div class="row">
+                <img class="contact-img" src="image/contact.jpg" alt="contact">
+
+                <form action="">
+                    <div class="input-group">
+                        <i data-feather="user"></i>
+                        <input type="text" placeholder="nama">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="mail"></i>
+                        <input type="text" placeholder="email">
+                    </div>
+                    <div class="input-group">
+                        <i data-feather="phone"></i>
+                        <input type="text" placeholder="no hp">
+                    </div>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+        <!-- CONTACT SECTION END -->
+
+
+        <!-- FOOTER START -->
+        <footer>
+            <div class="socials">
+                <a href="#"><i data-feather="instagram"></i></a>
+                <a href="#"><i data-feather="twitter"></i></a>
+                <a href="#"><i data-feather="facebook"></i></a>
+            </div>
+            <div class="links">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#bookList">POPULAR BOOK</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="credit">
+                <p>Created by <a href="">EltaProject</a>. | &copy; 2023.</p>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+
+
+    <!-- my script -->
+    <script src="script/index.js"></script>
+
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
